@@ -17,19 +17,19 @@ An appliction which will allow registeed users to mint the NFTs for their touris
 * [Streamlit](https://streamlit.io/) - Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
 
 ## Application Components
-### Mint NFTs - For the registered Site Owner / Site Operator
+### 1. Mint NFTs - For the registered Site Owner / Site Operator
 
 https://user-images.githubusercontent.com/80922524/131885754-549ae490-2625-46ef-b362-62fe590c3db9.mp4
 
-### Display NFTs
+### 2. Display NFTs
 
 https://user-images.githubusercontent.com/80922524/131886172-5073b951-6cf4-4bc5-8176-213f856302b8.mp4
 
-### Appraise NFTs
+### 3. Appraise NFTs
 
 https://user-images.githubusercontent.com/80922524/131886490-a8abe61f-bcaf-4672-92eb-90ecec3bed11.mp4
 
-### Get Appraisal History
+### 4. Get Appraisal History
 
 https://user-images.githubusercontent.com/80922524/131886585-3a55f015-3c77-4ad8-82a3-3697731e3f5e.mp4
 
