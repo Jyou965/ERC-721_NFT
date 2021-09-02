@@ -1,69 +1,37 @@
 # seven_wonders_NFT
 
-In this activity, you’ll create a dApp for the artwork token.
+## Background & Usage
+An appliction which will allow registeed users to mint the NFTs for their tourism sites, display the issued certificates and allow appraisers to appraise the value of the NFTs. This application is developed for site owners / entities with historical sites to generate additional revenues and for Investors / Companies / Individuals to purchase the Certificate as an investment. These certificates can be compared to Gold and Silver coins and will have a legitimate appraisal values and historical records stored on the blockchain.
 
-## Instructions
+## Technologies
+* [Solidity](https://soliditylang.org/) - Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.
 
-The instructions for this activity are divided into the following subsections:
+* [Remix](https://remix.ethereum.org) - Remix IDE is an open source web and desktop application.
 
-1. Deploy the Contract
+* [Ganache](https://www.trufflesuite.com/ganache) - Ganache is a personal blockchain for rapid Ethereum and Corda distributed application development.
 
-2. Prepare the Environment
+* [MetaMask](https://metamask.io/) - MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain.
 
-3. Build the dApp
+* [Pinata](https://www.pinata.cloud/) - Pinata is the simplest way to upload and manage files on IPFS.
 
-### Deploy the Contract
+* [Streamlit](https://streamlit.io/) - Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
 
-1. Create a new file in the Remix IDE, and then copy the code in the provided `artwork.sol` file into the new file. Spend a few moments reviewing the code.
+## Application Components
+### Mint NFTs - For the registered Site Owner / Site Operator
 
-2. Launch a Quickstart blockchain with Ganache, and then use MetaMask and the Remix IDE to compile and deploy the `ArtToken` contract.
+https://user-images.githubusercontent.com/80922524/131885754-549ae490-2625-46ef-b362-62fe590c3db9.mp4
 
-    > **Hint** The previous module has a detailed video about deploying contracts with Ganache, MetaMask, and the Remix IDE that you can reference for this contract.
+### Display NFTs
 
-### Prepare the Environment
+https://user-images.githubusercontent.com/80922524/131886172-5073b951-6cf4-4bc5-8176-213f856302b8.mp4
 
-Copy the provided `SAMPLE.env` file to a new file named `.env`, and then add the missing data to the environment variables.
+### Appraise NFTs
 
-> **Hint** You can find the value for `WEB3_PROVIDER_URI`  in the RPC Server field in Ganache. For the `SMART_CONTRACT_ADDRESS` value, use the address of the deployed contract in the Remix IDE. You can find it in the Deployed Contracts section.
+https://user-images.githubusercontent.com/80922524/131886490-a8abe61f-bcaf-4672-92eb-90ecec3bed11.mp4
 
-### Build the dApp
+### Get Appraisal History
 
-1. Open `app.py` in the `Unsolved` folder.
+https://user-images.githubusercontent.com/80922524/131886585-3a55f015-3c77-4ad8-82a3-3697731e3f5e.mp4
 
-2. In `app.py`, in the `load_contract` function, write the code to load the smart contract. To do so, complete the following substeps:
-
-    * Use the following code to load the `artwork_abi.json` file that already exists in the `contracts/compiled` folder:
-
-        ```python
-        with open(Path('./contracts/compiled/artwork_abi.json')) as f:
-            artwork_abi = json.load(f)
-        ```
-
-    * Use the following code to load the contract with Web3:
-
-        ```python
-        contract = w3.eth.contract(
-            address=contract_address,
-            abi=artwork_abi
-        )
-        ```
-
-3. in the “Register New Artwork” section of code, write the code to register new artwork. To do so, complete the following substeps:
-
-    * Define a new Streamlit component that gets the address of the artwork owner from the user. Use any Streamlit component that you’d like.
-
-    * Define a new Streamlit component that gets the URI for the artwork. Have the user enter it as a string.
-
-    * In the code for the Register Artwork button, use Web3 to send a transaction to the smart contract that registers the new artwork data based on the two preceding Streamlit components.
-
-        > **Hint** Use the Web3 `transact` function to send the user data to the `registerArtwork` function in the contract.
-
-4. In the “Display a Token” section of code, write the code to display a token. To do so, complete the following substeps:
-
-    * Use Web3 to call the `ownerOf` function of the contract.
-
-    * Use the `tokenURI` function of the contract to get the URI for the art token.
-
-        > **Hint** You can find examples that use `ownerOf` and `tokenURI` on the [OpenZeppelin documentation page](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721#IERC721-ownerOf-uint256-) or through an internet search.
-
-5. Run the application by using `streamlit run app.py`. Test the functionality of the dApp to make sure that it works as expected.
+## Contibutors
+Team NFTerrific - Jackie You, Clare Collity, Carlos Raymundo and Jamal Rizvi with the support of UC Berkeley FinTech Boot Camp Staff
