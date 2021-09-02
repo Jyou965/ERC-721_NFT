@@ -1,7 +1,7 @@
 # seven_wonders_NFT
 
 ## Background & Usage
-An appliction which will allow registeed users to mint the NFTs for their tourism sites, display the issued certificates and allow appraisers to appraise the value of the NFTs. This application is developed for site owners / entities with historical sites to generate additional revenues and for Investors / Companies / Individuals to purchase the Certificate as an investment. These certificates can be compared to Gold and Silver coins and will have a legitimate appraisal values and historical records stored on the blockchain.
+An appliction which will allow registered users to mint the NFTs for their tourism sites, display the issued certificates and allow appraisers to appraise the value of the NFTs. This application is developed for site owners / entities with historical sites to generate additional revenues and for Investors / Companies / Individuals to purchase the Certificate as an investment. These certificates can be compared to Gold and Silver coins and will have legitimate appraisal values and historical records stored on the blockchain.
 
 ## Technologies
 * [Solidity](https://soliditylang.org/) - Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.
@@ -32,6 +32,11 @@ https://user-images.githubusercontent.com/80922524/131886490-a8abe61f-bcaf-4672-
 ### 4. Get Appraisal History
 
 https://user-images.githubusercontent.com/80922524/131886585-3a55f015-3c77-4ad8-82a3-3697731e3f5e.mp4
+
+
+## Installation
+
+Users of this application need to set up a .env file containing smart contract address, web3 provider URI, Pinata API key and Pinata API secret key.
 
 ## Contibutors
 Team NFTerrific - Jackie You, Clare Collity, Carlos Raymundo and Jamal Rizvi with the support of UC Berkeley FinTech Boot Camp Staff
