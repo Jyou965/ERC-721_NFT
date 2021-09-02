@@ -3,11 +3,11 @@
 ## Background & Usage
 An appliction which will allow registered users to mint the NFTs for their tourism sites, display the issued certificates and allow appraisers to appraise the value of the NFTs. This application is developed for site owners / entities with historical sites to generate additional revenues and for Investors / Companies / Individuals to purchase the Certificate as an investment. The certificates can be examplified as below:
 
-![party](https://github.com/Jyou965/Project_3_seven_wonders_NFT/blob/master/Pictures/Taj_Mahal_Party.png)
+### ![party](https://github.com/Jyou965/Project_3_seven_wonders_NFT/blob/master/Pictures/Taj_Mahal_Party.png)
 
-![tour](https://github.com/Jyou965/Project_3_seven_wonders_NFT/blob/master/Pictures/Taj_Mahal_Tour.png)
+### ![tour](https://github.com/Jyou965/Project_3_seven_wonders_NFT/blob/master/Pictures/Taj_Mahal_Tour.png)
 
-These certificates can be compared to Gold and Silver coins and will have legitimate appraisal values and historical records stored on the blockchain.
+### These certificates can be compared to Gold and Silver coins and will have legitimate appraisal values and historical records stored on the blockchain.
 
 ## Technologies
 * [Solidity](https://soliditylang.org/) - Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.
