@@ -47,5 +47,3 @@ Users of this application need to set up a .env file containing smart contract a
 
 ## Contibutors
 Team NFTerrific - Jackie You, Clare Collity, Carlos Raymundo and Jamal Rizvi with the support of UC Berkeley FinTech Boot Camp Staff
-
-https://drive.google.com/drive/folders/1feJrG7qoz8xn9M92tzb-bIkoVDUSyS5Q
