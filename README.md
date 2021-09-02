@@ -1,7 +1,7 @@
 # seven_wonders_NFT
 
 ## Background & Usage
-An appliction which will allow registered users to mint the NFTs for their tourism sites, display the issued certificates and allow appraisers to appraise the value of the NFTs. This application is developed for site owners / entities with historical sites to generate additional revenues and for Investors / Companies / Individuals to purchase the Certificate as an investment. The Certificates can be examplified as below:
+An appliction which will allow registered users to mint the NFTs for their tourism sites, display the issued certificates and allow appraisers to appraise the value of the NFTs. This application is developed for site owners / entities with historical sites to generate additional revenues and for Investors / Companies / Individuals to purchase the Certificate as an investment. The certificates can be examplified as below:
 
 ![party](https://github.com/Jyou965/Project_3_seven_wonders_NFT/blob/master/Pictures/Taj_Mahal_Party.png)
 
