@@ -46,4 +46,4 @@ https://user-images.githubusercontent.com/80922524/131886585-3a55f015-3c77-4ad8-
 Users of this application need to set up a .env file containing smart contract address, web3 provider URI, Pinata API key and Pinata API secret key.
 
 ## Contibutors
-Team NFTerrific - Jackie You, Clare Collity, Carlos Raymundo and Jamal Rizvi with the support of UC Berkeley FinTech Boot Camp Staff
+Team NFTerrific - Jackie You, Clare Collity, Carlos Raymundo and Jamal Rizvi 
